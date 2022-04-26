@@ -1,5 +1,6 @@
-package com.wasala.moviebase;
+package com.wasala.moviebase.controllers;
 
+import com.wasala.moviebase.security.jwt.JwtUtils;
 import com.wasala.moviebase.models.Role;
 import com.wasala.moviebase.models.RoleEnum;
 import com.wasala.moviebase.models.User;
@@ -9,7 +10,7 @@ import com.wasala.moviebase.payloads.responses.JwtResponse;
 import com.wasala.moviebase.payloads.responses.MessageResponse;
 import com.wasala.moviebase.repositories.RoleRepository;
 import com.wasala.moviebase.repositories.UserRepository;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.wasala.moviebase.security.services.UserDetailsImpl;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

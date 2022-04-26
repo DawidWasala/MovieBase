@@ -1,4 +1,4 @@
-package com.wasala.moviebase;
+package com.wasala.moviebase.controllers;
 
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.CrossOrigin;

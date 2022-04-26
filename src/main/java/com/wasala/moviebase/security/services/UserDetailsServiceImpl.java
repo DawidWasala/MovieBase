@@ -1,4 +1,4 @@
-package com.wasala.moviebase;
+package com.wasala.moviebase.security.services;
 
 import com.wasala.moviebase.models.User;
 import com.wasala.moviebase.repositories.UserRepository;

@@ -1,4 +1,4 @@
-package com.wasala.moviebase;
+package com.wasala.moviebase.security.services;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.wasala.moviebase.models.User;

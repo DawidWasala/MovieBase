@@ -1,5 +1,8 @@
-package com.wasala.moviebase;
+package com.wasala.moviebase.security;
 
+import com.wasala.moviebase.security.jwt.AuthEntryPointJwt;
+import com.wasala.moviebase.security.jwt.AuthTokenFilter;
+import com.wasala.moviebase.security.services.UserDetailsServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

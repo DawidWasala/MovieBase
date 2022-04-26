@@ -1,5 +1,6 @@
-package com.wasala.moviebase;
+package com.wasala.moviebase.security.jwt;
 
+import com.wasala.moviebase.security.services.UserDetailsImpl;
 import io.jsonwebtoken.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

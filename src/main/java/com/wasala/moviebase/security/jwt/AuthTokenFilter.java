@@ -1,5 +1,6 @@
-package com.wasala.moviebase;
+package com.wasala.moviebase.security.jwt;
 
+import com.wasala.moviebase.security.services.UserDetailsServiceImpl;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
