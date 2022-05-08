@@ -1,4 +1,5 @@
 package com.wasala.moviebase.exceptions;
 
-public class GenreNotFoundException  extends Exception {
+public class GenreNotFoundException extends Exception {
+
 }

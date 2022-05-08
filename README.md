@@ -1,7 +1,8 @@
 # MovieBase
 
 ## Overview
-Simple movie database 
+
+Simple movie database
 
 ## Endpoints
 
