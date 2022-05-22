@@ -8,11 +8,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class LoginRequest {
-
+public class CreateGenreRequest {
   @NotBlank
-  private String username;
-  @NotBlank
-  private String password;
-
+  private String name;
 }
